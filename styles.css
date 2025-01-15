@@ -1,0 +1,74 @@
+span{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color:#0d6efd;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+h2{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style:normal;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+}
+.card {
+    height: 100%; 
+    display: flex;
+    flex-direction: column; 
+}
+  
+.card-body {
+    flex-grow: 1;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.row.g-4 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch; 
+}
+.card-img-top {
+    object-fit: cover; 
+    height: 200px; 
+    width: 100%; 
+}
+body {
+    background-color: #121212; 
+    color: white;
+  }
+  .form-section {
+    background-color: #1f1f1f; 
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+  }
+  .form-control, .btn {
+    border-radius: 8px; /* Rounded edges for input and button */
+  }
+  .btn-primary {
+    background-color: #0d6efd; /* Accent color for the button */
+    border: none;
+  }
+  .btn-primary:hover {
+    background-color: blue; /* Darker hover effect */
+  }
+  .image-container img {
+    max-width: 80%; /* Reduce the maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded edges */
+    display: block; /* Ensure proper alignment */
+    margin: 0 auto; /* Center the image in its column */
+  }
